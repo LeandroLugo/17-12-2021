@@ -1,0 +1,54 @@
+$verde:#64F109;
+$verdoso:#52A53B;
+$clariverde:#5CDE09;
+
+
+/*INSCRIPCION*/
+
+body{
+
+.placeholder {
+	display: flex;
+	height: 20px;
+	width: 100px;
+	padding: 8px;
+	position: relative;
+	background-color: $clariverde;
+	margin: 3px;
+	border: 2px solid #E7F339;
+}
+
+.placeholder:focus {
+	background-color: $verde;
+}
+
+select {
+	display: flex;
+	padding: 5px;
+	border: 2px solid ;
+}
+
+.checkbox {
+	display: flex;
+	padding: 3px;
+}
+
+.boton1 {
+	display: flex;
+    padding: 1px;	
+    margin-top: 10px;
+}
+
+.boton2  {
+	display: flex;
+	padding: 1px;
+	margin-top: 0px;
+}
+
+.inscripcion {
+  text-align: end;
+  font-size: 20px;
+  background: $verdoso;
+  padding: 15px;
+}
+}

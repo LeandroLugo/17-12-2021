@@ -1,0 +1,35 @@
+/* Tu cuenta  */
+main {
+
+.tuCuenta{
+	text-align: center;
+	background: green;
+}
+
+.datosTorneo {
+	text-align: center;
+}
+
+
+ table {
+ 	width: 100%;
+   border-collapse: collapse;
+ }
+
+.table td,.table th{
+	padding: 12px 15px;
+	border: 1px solid #ddd;
+	text-align: center;
+	font-size: 16px;
+	background-color: #19CA79;
+}
+
+.table th{
+	background-color: #19CA79;
+	color: #ffffff;
+}
+
+.table tbody tr:nth-child(even){
+	background-color: #19CA79;
+}
+}
